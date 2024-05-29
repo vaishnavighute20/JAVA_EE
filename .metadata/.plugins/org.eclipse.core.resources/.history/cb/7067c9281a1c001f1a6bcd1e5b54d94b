@@ -1,0 +1,37 @@
+package com.blogs.controller;
+
+import java.time.LocalDateTime;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.servlet.ModelAndView;
+
+@Controller
+//base pattern of incoming  can be supplied at class level
+@RequestMapping("/test")// can inteecept any request (GET|POST|PUT|DELETE|PATCH
+
+public class MyTestController {
+
+	public MyTestController() {
+		System.out.println("in constructor of "+ getClass());
+
+	}
+	// add req handling method to display server side timestamp  ie dynamic res
+@GetMapping("/test2")// 
+public ModelAndView RenderDynamicResult() {
+	System.out.println("in renders dyn res");
+	/*
+	 * osws ModelAndView: class that holds LVN+ result
+	 * results are represented by model attribute
+	 * (name,value pair)
+	 * constructor
+	 * modelAndView(StringANdLVN
+	 * StringModelAttrname, ObjectmodelAttValue
+	 * 
+	 * 
+	 */
+	return new ModelAndView("/test/display","serves_ts",LocalDateTime.now());
+	
+}
+}

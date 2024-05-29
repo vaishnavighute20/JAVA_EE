@@ -1,0 +1,44 @@
+package com.app.dao;
+
+import static com.app.utils.HibernateUtils.getFactory;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.app.entities.BlogPost;
+import com.app.entities.Category;
+
+public class BlogPostdaoImpl implements BlogPostDao {
+
+	@Override
+	public String createNewBlog(BlogPost Post, Long CategoryId, Long autherId) {
+	String mesg="adding new post failed...";
+		//1. get session from Sf (getCurrentSeesion)
+		Session session = getFactory().getCurrentSession();
+		// 2. Begin a Transcation
+		Transaction tx = session.beginTransaction();
+		try {
+			// 1. get category from its id
+			Category cat = session.get(Category.class, CategoryId);
+			if (cat != null && author != null) {
+				// establish association between post --> author n post--> category
+				// setter
+				post.setChosenCategory(cat);
+				post.setAuthor(author);
+				// since no cascading yet -- explicitly persist post.
+				session.persist(post);
+				mesg = "added new post with id " + post.getId();
+
+			}
+			tx.commit();
+ 		} catch (RuntimeException e) {
+			if (tx != null)
+				tx.rollback();
+			// re throw the exc to the caller
+			throw e;
+		}
+	
+		return mesg;
+	}
+
+}

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<typeInfoHistroy>
+    <typeInfo handle="=spring_boot_template_mvc/C:\/Users\/abghu\/.m2\/repository\/org\/hibernate\/hibernate-core\/5.6.15.Final\/hibernate-core-5.6.15.Final.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.hibernate=/=/maven.artifactId=/hibernate-core=/=/maven.version=/5.6.15.Final=/=/maven.scope=/compile=/&lt;org.hibernate.boot.spi(JpaOrmXmlPersistenceUnitDefaultAware$JpaOrmXmlPersistenceUnitDefaults.class[JpaOrmXmlPersistenceUnitDefaults" modifiers="1545" timestamp="1716312316556"/>
+    <typeInfo handle="=spring_boot_template_mvc/C:\/Users\/abghu\/.m2\/repository\/org\/springframework\/data\/spring-data-jpa\/2.7.18\/spring-data-jpa-2.7.18.jar=/maven.pomderived=/true=/=/maven.pomderived=/true=/=/maven.groupId=/org.springframework.data=/=/maven.artifactId=/spring-data-jpa=/=/maven.version=/2.7.18=/=/maven.scope=/compile=/&lt;org.springframework.data.jpa.repository(JpaRepository.class[JpaRepository" modifiers="1537" timestamp="1716888259183"/>
+    <typeInfo handle="=spring_boot_template_mvc/C:\/Program Files\/Java\/jdk-11\/lib\/jrt-fs.jar`java.base=/maven.pomderived=/true=/=/javadoc_location=/https:\/\/docs.oracle.com\/en\/java\/javase\/11\/docs\/api\/=/&lt;java.lang(Runtime.class[Runtime" modifiers="33" timestamp="1713709100838"/>
+</typeInfoHistroy>

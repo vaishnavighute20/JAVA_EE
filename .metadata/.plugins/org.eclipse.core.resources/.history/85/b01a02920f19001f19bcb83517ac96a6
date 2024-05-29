@@ -1,0 +1,10 @@
+package com.app.dao;
+import com.app.entities.BlogPost;
+import com.app.entities.Category;
+public interface BlogPostDao {
+
+	public String createnewBlog(BlogPost Post, Long CategoryId,Long autherId) ;
+	
+	
+	
+}
