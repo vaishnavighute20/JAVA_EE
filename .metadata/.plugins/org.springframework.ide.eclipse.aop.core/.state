@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="day11.4"/>
+<aop-project name="day10.1"/>
+<aop-project name="day10.3"/>
+<aop-project name="spring_boot_template_mvc"/>
+<aop-project name="day12_lab_problem"/>
+<aop-project name="day13.2"/>
+<aop-project name="test_spring"/>
+<aop-project name="day11.3"/>
+<aop-project name="day11.1"/>
+<aop-project name="day10.4"/>
+<aop-project name="day10.2"/>
+<aop-project name="day13_lab"/>
+<aop-project name="spring_mvc_template"/>
+<aop-project name="day13.1"/>
+<aop-project name="spring_boot_backend_template"/>
+</aop-reference-model>

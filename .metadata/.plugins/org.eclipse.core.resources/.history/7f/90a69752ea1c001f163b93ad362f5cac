@@ -1,0 +1,38 @@
+package com.blogs.controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+
+import com.blogs.entities.Role;
+import com.blogs.entities.User;
+import com.blogs.service.Userservice;
+
+@Controller
+public class UserController {
+// add a method for processing login form	
+	@PostMapping("/login")
+	
+	
+	
+	public String processLoginForm(@RequestParam String email,@RequestParam String password,Model map) {
+		
+		System.out.println("in process Login form"+email" "+password);
+		try {
+			//invoke service layer method
+			User user =Userservice.signInUser(email,password);
+			//login succesful
+			//check the role   in case of admin ---forward the client admin
+			map.addAttribute("message","login successful").addAttribute("user_details",user)
+			if(user.getRole()==Role.ADMIN)
+				return"/bolgger/home";
+			
+			
+			
+		}catch (RuntimeException e) {
+			System.out.println("err "+e);
+			// invalid login ,forward the client to the login form
+		}
+	}
+}

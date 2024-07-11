@@ -1,0 +1,18 @@
+package com.app.services;
+
+import java.util.List;
+
+import com.app.entity.Railway;
+
+public interface RailwayServices {
+	
+	List<Railway> getDetails();
+
+	Railway addDetails(Railway railway);
+
+	Railway updateDetails(Railway railway);
+	
+	String delete(Long id);
+
+
+}

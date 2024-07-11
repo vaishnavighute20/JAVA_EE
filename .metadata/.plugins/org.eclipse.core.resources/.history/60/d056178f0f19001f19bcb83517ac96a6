@@ -1,0 +1,35 @@
+package com.app.dao;
+
+import static com.app.utils.HibernateUtils.getFactory;
+
+import org.hibernate.Session;
+import org.hibernate.Transaction;
+
+import com.app.entities.BlogPost;
+
+public class BlogPostdaoImpl implements BlogPostDao {
+
+	@Override
+	public String createnewBlog(BlogPost Post, Long CategoryId, Long autherId) {
+		Session session = getFactory().getCurrentSession();
+		// 2. Begin a Tx
+		Transaction tx = session.beginTransaction();
+		try {
+			session.persist(category);
+			tx.commit();
+ 		} catch (RuntimeException e) {
+			if (tx != null)
+				tx.rollback();
+			// re throw the exc to the caller
+			throw e;
+		}
+	
+	}
+		return null;
+	}
+
+	
+	
+	
+
+}

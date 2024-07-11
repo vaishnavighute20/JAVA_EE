@@ -1,0 +1,45 @@
+package com.app.services;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.modelmapper.ModelMapper;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+
+import com.app.entity.Railway;
+import com.app.repository.RailwayRepository;
+
+ 
+@Service
+@Transactional
+public class RailwayServiceImpl implements RailwayServices {
+
+	@Autowired
+	private RailwayRepository railwayRepository;
+	@Autowired
+	private ModelMapper mapper;
+	
+	@Override
+	public List<Railway> getDetails() {
+ 		return railwayRepository.findAll() ;
+	}
+ 
+	@Override
+	public Railway addDetails(Railway railway) {
+		// TODO Auto-generated method stub
+		return railwayRepository.save(railway);
+	}
+
+	@Override
+	public Railway updateDetails(Railway railway) {
+		// TODO Auto-generated method stub
+		return railwayRepository.save(railway);
+	}
+	
+	
+
+}

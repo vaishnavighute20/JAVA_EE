@@ -1,0 +1,58 @@
+
+May 15, 2024 17:32:22.689 NEW SESSION
+May 15, 2024 17:32:22.689 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 15, 2024 18:12:07.950 NEW SESSION
+May 15, 2024 18:12:07.950 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2024 18:13:27.16 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 15, 2024 18:20:35.438 [19888:20112:0515/182035.436:ERROR:interface_endpoint_client.cc(707)] Message 0 rejected by interface blink.mojom.WidgetHost
+May 15, 2024 18:23:14.365 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 15, 2024 19:16:48.343 NEW SESSION
+May 15, 2024 19:16:48.343 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 16, 2024 14:52:27.762 NEW SESSION
+May 16, 2024 14:52:27.762 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 16, 2024 16:42:26.887 NEW SESSION
+May 16, 2024 16:42:26.887 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 17, 2024 18:20:21.45 NEW SESSION
+May 17, 2024 18:20:21.45 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 21, 2024 01:08:32.519 NEW SESSION
+May 21, 2024 01:08:32.519 [23784:8548:0521/010832.518:ERROR:cert_issuer_source_aia.cc(35)] Error parsing cert retrieved from AIA (as DER):
+May 21, 2024 01:08:32.531 ERROR: Couldn't read tbsCertificate as SEQUENCE
+May 21, 2024 01:08:32.532 ERROR: Failed parsing Certificate
+May 21, 2024 01:08:32.532 
+May 21, 2024 01:08:34.391 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 21, 2024 23:24:49.508 NEW SESSION
+May 21, 2024 23:24:49.509 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 21, 2024 23:29:30.94 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 21, 2024 23:37:32.318 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 21, 2024 23:39:35.521 Created TensorFlow Lite XNNPACK delegate for CPU.
+
+May 27, 2024 17:01:28.595 NEW SESSION
+May 27, 2024 17:01:28.595 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 27, 2024 17:02:06.850 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 27, 2024 17:43:45.721 [8736:21648:0527/174345.720:ERROR:connection_factory_impl.cc(483)] ConnectionHandler failed with net error: -2
+May 27, 2024 18:01:32.718 [8736:21648:0527/180132.717:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 18:01:32.719 [8736:21648:0527/180132.718:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 18:01:55.582 [8736:21648:0527/180155.582:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 18:02:46.740 [8736:21648:0527/180246.740:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 18:04:43.50 [8736:21648:0527/180443.049:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 18:08:38.264 [8736:21648:0527/180838.263:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 18:14:32.376 [8736:21648:0527/181432.375:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 18:24:32.389 [8736:21648:0527/182432.388:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+
+May 27, 2024 23:34:39.276 NEW SESSION
+May 27, 2024 23:34:39.276 [17944:21188:0527/233439.273:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 23:34:39.943 Created TensorFlow Lite XNNPACK delegate for CPU.
+May 27, 2024 23:35:01.345 [17944:21188:0527/233501.344:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 23:35:53.946 [17944:21188:0527/233553.946:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 23:37:36.297 [17944:21188:0527/233736.296:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 23:41:27.328 [17944:21188:0527/234127.327:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 23:48:23.383 [17944:21188:0527/234823.382:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 27, 2024 23:58:23.420 [17944:21188:0527/235823.419:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105
+May 28, 2024 24:08:23.452 [17944:21188:0528/000823.451:ERROR:connection_factory_impl.cc(434)] Failed to connect to MCS endpoint with error -105

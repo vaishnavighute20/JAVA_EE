@@ -1,0 +1,5 @@
+package com.blogs.custom_exception;
+
+public class InvalidCredentialException extends Runtime {
+
+}

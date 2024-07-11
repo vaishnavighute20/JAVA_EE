@@ -1,0 +1,9 @@
+package com.app.tester;
+
+public class AddNewComment {
+
+	public static void main(String[] args) {
+
+	}
+
+}

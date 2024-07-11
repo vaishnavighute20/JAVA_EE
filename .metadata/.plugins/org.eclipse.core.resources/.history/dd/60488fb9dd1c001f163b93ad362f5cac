@@ -1,0 +1,6 @@
+package com.blogs.service;
+
+public interface Userservice {
+// add a method for users signin
+	User signInUser(String email,String pwd);
+}

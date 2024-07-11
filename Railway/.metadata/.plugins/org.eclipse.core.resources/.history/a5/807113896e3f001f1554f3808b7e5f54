@@ -1,0 +1,10 @@
+package com.app.services;
+
+import java.util.List;
+
+import com.app.entity.Railway;
+
+public class RailwayServices {
+	List<Railway> getDetails();
+
+}
